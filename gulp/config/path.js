@@ -11,6 +11,7 @@ export let path = {
 		css: `${buildFolder}/styles/`,
 		html: `${buildFolder}/`,
 		fonts: `${buildFolder}/assets/fonts/`,
+		svgicons: `${buildFolder}/assets/svg/`,
 	},
 	src: {
 		images: `${srcFolder}/assets/img/**/*.{png,jpg,webp,gif,jpeg}`,

@@ -15,11 +15,11 @@ export const svgSprive = () => {
 			svgSprite({
 				mode: {
 					stack: {
-						sprite: `../icons/sprite.svg`,
+						sprite: `../sprite.svg`,
 					},
 				},
 			}),
 		)
-		.pipe(app.gulp.dest(app.path.build.images))
+		.pipe(app.gulp.dest(app.path.build.svgicons))
 		.pipe(app.plugins.browserSync.stream());
 };
